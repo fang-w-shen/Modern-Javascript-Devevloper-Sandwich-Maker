@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Sandwich Maker IIFE</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<h1>MAKE YOUR OWN SANDWICH FROM THE TOPPINGS BELOW</h1>
+		<div id="div">
+			<select multiple="true" id="bread-chooser">
+				<option class="options" disabled="true">Choose Your Bread</option>
+				<option value=0>No Bread</option>
+				<option value="Wheat">$1.00 Wheat</option>
+				<option value="Whole-Grain">$2.00 Whole-Grain</option>
+
+			</select><br>	
+
+
+			<select multiple="true" id="meat-chooser">
+				<option class="options" disabled="true">Choose Your Meats</option>
+				<option value=0>No Meat</option>
+				<option value="Turkey">$0.90 Turkey</option>
+				<option value="Bacon">$1.50 Bacon</option>
+			</select><br>
+			
+
+
+			<select multiple="true" id="veg-chooser">
+				<option class="options" disabled="true">Choose Your Vegetables</option>
+				<option value=0>No Vegetables</option>
+				<option value="Lettuce">$1 Lettuce</option>
+				<option value="Tomato">$2 Tomato</option>
+				<option value="Onion">$3 Onion</option>
+			</select><br>
+		</div>
+		
+
+		<div id="meat"></div>
+
+		<h3>Purchase</h3>
+		<hr>
+			<div >
+			  <a id="total" class="dropdown-item" value="turkey">Buy</a>
+			  
+			</div>	
+			<br>	
+		
+		
+		
+
+
+
+
+
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="lib/node_modules/handlebars/dist/handlebars.min.js"></script>
+		<script type="text/javascript" src="dist/app.js"></script>
+	</body>
+</html>
